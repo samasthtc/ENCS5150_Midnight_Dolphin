@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:background="#040839"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <ImageView
+        android:id="@+id/BG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        android:scaleY="1"
+        android:translationY="-10dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/night_sky"
+        tools:ignore="VisualLintBounds"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-black"
+        android:elevation="8dp"
+        android:text="Midnight Dolphin"
+        android:textAlignment="center"
+        android:textColor="#E07B99"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="71dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:importantForAccessibility="no"
+        android:visibility="visible"
+        android:elevation="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/s_logo"
+        tools:visibility="visible" />
+
+
+    <ImageView
+        android:id="@+id/plane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="456dp"
+        android:importantForAccessibility="no"
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:elevation="4dp"
+        android:translationX="-30dp"
+        android:translationY="200dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/plane"
+        tools:ignore="VisualLintBounds"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/dolphin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:rotation="180"
+        android:rotationX="0"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:translationY="200dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dolphin"
+        tools:ignore="ContentDescription"
+        tools:visibility="visible" />
+
+
+    <ImageView
+        android:id="@+id/waves"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        android:rotationX="0"
+        android:scaleX="1.25"
+        android:scaleY="1.5"
+        android:translationY="10dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/waves"
+        tools:ignore="VisualLintBounds"
+        android:elevation="16dp"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="#75233B"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="As the sun set on the horizon, the sky painted in hues of orange and pink, a playful dolphin leapt gracefully from the glistening sea, its sleek body catching the last rays of sunlight. It soared through the air, droplets of water sparkling like diamonds around it. Below, the waves danced and shimmered, welcoming the dolphin back into their embrace. Above, a plane flew steadily across the sky, its contrail painting a white line through the dusk, a silent witness to the dolphin's joyful dance. The scene was a beautiful blend of nature's wonders and human marvels, a moment of serene magic as the dolphin leapt again and again, a timeless dance in the endless sea, beneath the boundless sky..."
+        android:textAlignment="center"
+        android:textColor="#E9DA90"
+        android:textSize="34sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,VisualLintLongText"
+        tools:visibility="visible" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
